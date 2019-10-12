@@ -91,6 +91,9 @@
                                 <span >
                                             <strong style="color:white; padding-bottom:10px;">{{ $errors->first('password') }}</strong>
                                 </span>
+
+
+
                                     @endif
 
                                     <br>
