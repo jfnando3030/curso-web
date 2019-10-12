@@ -27,7 +27,7 @@ class MiResetPasswordPersonalizado extends Notification
     {
        return (new MailMessage)
        ->subject('Solicitud para recuperar contraseña de CursoWeb')
-       ->greeting('Hola como estas!,')
+       ->greeting('Hola!,')
        ->line('Estas recibiendo este mail porque recibimos una solicitud de cambio de contraseña.')
        ->action('Cambiar Contraseña', url('password/reset', $this->token))
        ->line('Si no realizaste esta petición, por favor ignora este mensaje.')
