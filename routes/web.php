@@ -22,6 +22,9 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::group(['middleware' => 'auth'], function()
 {
     Route::get('/administracion','HomeController@administracion');
+    Route::get('administracion/roles_ajax', 'RolController@roles_ajax'); 
+
+    Route::resource('administracion/roles', 'RolController');
     
        
 });
