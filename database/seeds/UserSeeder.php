@@ -15,7 +15,10 @@ class UserSeeder extends Seeder
         User::create([
 
             'id'=>'1',
-            'name'=>'Super Administrador',
+            'name'=>'Fernando',
+            'cedula' => '0706829116',
+            'edad' => 25,
+            'apellidos'=>'Castillo',
             'estado'=> 1,
             'email'=> 'fernando@gmail.com',
             'password'=> bcrypt('12345678'),

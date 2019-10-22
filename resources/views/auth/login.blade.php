@@ -81,7 +81,7 @@
                     
                                     <span  class="input-group-text"><i class="fas fa-user" style="    padding-right: 3px;"></i></span>
                                 
-                                <input id="email"  type="email" class="form-control" name="email" placeholder="Ingrese su email"  value="{{ old('email') }}" required autofocus>
+                                <input id="email"  type="text" class="form-control" name="email" placeholder="Ingrese su email"  value="{{ old('email') }}" required autofocus>
                               
                              
                             </div>

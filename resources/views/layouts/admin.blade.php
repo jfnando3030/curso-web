@@ -168,6 +168,20 @@
                     </ul>
                   </li>
 
+                  <li class="treeview">
+                        <a href="#">
+                          <i class="fa fa-user"></i>
+                          <span>Usuarios</span>
+                          <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                          </span>
+                        </a>
+                        <ul class="treeview-menu">
+                        <li><a href="{{ route('usuarios.index')}}"><i class="fa fa-circle-o"></i> Listado</a></li>
+                            <li><a href="{{ route('usuarios.create')}}"><i class="fa fa-circle-o"></i> Agregar</a></li>
+                        </ul>
+                      </li>
+
 
 
 
@@ -217,6 +231,7 @@
 
     <script src="{{url('administration/dist/js/dataTables.bootstrap4.min.js')}}"></script>
     <script src="{{url('administration/dist/js/dataTables.responsive.min.js')}}"></script>
+    <script src="{{url('administration/js/validaNumerosLetras.js')}}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/js/select2.min.js"></script>
 
 
